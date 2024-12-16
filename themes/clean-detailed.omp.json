@@ -49,7 +49,19 @@
           "template": " {{ .FormattedMs }} ",
           "trailing_diamond": "\ue0b0",
           "type": "executiontime"
-        }
+        },
+		{
+		  "type": "spotify",
+		  "style": "powerline",
+		  "powerline_symbol": "",
+		  "foreground": "#000000",
+		  "background": "#1ED760",
+		  "properties": {
+		  "playing_icon": " ",
+		  "paused_icon": " ",
+		  "stopped_icon": " "
+  }
+}
       ],
       "type": "prompt"
     },
